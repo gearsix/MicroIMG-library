@@ -1,6 +1,6 @@
 {
   "name": "microimg-lib",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An image & animation library for the BBC micro:bit classic (using the lancaster microbit-dal) 5x5 LED display.",
   "author": "Alexander Collins (alexander-collins@outlook.com)",
   "license": "MIT",

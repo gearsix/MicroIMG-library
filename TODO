@@ -1,0 +1,4 @@
+1. Add API documentation
+1.a DOXYGEN:
+1.a1 Convert comments in MicroIMG.h to doxygen compatible
+1.a2 Generate doxygen documentation
