@@ -44,13 +44,15 @@ If you're using the MicroBitImages, just pass them to a MicroBitDisplay function
 If you want to use the animations, just call them. _Note: check the parameters, they're not standard._
 
 ### Examples
+If you don't want to type ```MicroIMG::``` all the time, add ```using namespace MicroIMG``` to the top of your file.
+
 #### Images
-* You could just print them: ```MicroBitDisplay.print(MicroIMG_tick);```
-* You could scroll them: ```MicroBitDisplay.scroll(MicroIMG_tick);```
+* You could just print them: ```MicroBitDisplay.print(MicroIMG::img_tick);```
+* You could scroll them: ```MicroBitDisplay.scroll(MicroIMG::img_tick);```
 Basically treat them the way you'd treat any MicroBitImage.
 
 ### Animations
-* Simply call the relevant function: ```MicroIMG_animation_flash(&uBit, MicroIMG_A, MicroIMG_blank, 5, 75);```
+* Simply call the relevant function: ```MicroIMG::ani_flash(&uBit, MicroIMG::img_A, MicroIMG::img_blank, 5, 75);```
 
 ## Author & Contributors
 Alexander Collins (_alexander-collins@outlook.com_)
