@@ -5,8 +5,9 @@ A set of images and animations for a BBC:MicroBit 5x5 LED display, using the [La
 
 ## Contents
 1. Overview
-2. Requirements
+2. Install
 3. Usage
+4. Requirements
 4. Author & Contributors
 
 
@@ -20,6 +21,14 @@ The animations are a set of functions that use the pre-defined MicroBitImages an
 These MicroBitImage objects are used by the [MicroBitDisplay](https://lancaster-university.github.io/microbit-docs/ubit/display/). See **Examples** under **Usage**.
 
 Also know, that because of the the DAL is written, using this library will cause a lot of warnings when you build a project.
+
+
+## Install
+In the ```module.json``` of you yotta module, just add:
+```
+"microimg-lib": "https://github.com/GeaRSiX/MicroIMG-library.git"
+````
+In ```"dependencies": { }```.
 
 
 ## Usage
